@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#24272E ;
+}
+header{
+    background:white ;
+    padding :10px;
+
+}
+header > h1 {
+    color:#24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.score-board{
+    margin: 15px auto;
+    border: 3px solid white;
+    position: relative;
+    width: 160px;
+    color:white;
+    border-radius:6px;
+    font-size: 35px;
+    padding: 12px 20px;
+    text-align: center;
+    font-family: Asap, sans-serif;   
+}
+
+.badge{
+    background: #E25840;
+    color:white;
+    font-size: 14px;
+    padding: 3px 9px;
+    font-family: Asap, sans-serif;
+}
+#user-label{
+    position:absolute;
+    top:22px;
+    font-size: 15px;
+    left:-25px;
+    border-radius: 5px;
+}
+#comp-label{
+    position:absolute;
+    top:22px;
+    right:-30px;
+    border-radius: 5px;
+}
+.result{
+    margin :20px;
+}
+.result >p {
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;   
+
+}
+.choices{
+    text-align: center;
+    margin: 50px 0;;
+    
+    
+}
+.choice{
+    border: 4px solid white;
+    margin: 0 20px;
+    border-radius: 50%;
+    display :inline-block;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #2e323a;
+    transition: ease-in-out;
+    
+}
+
+.green-glow{
+    border:4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+    border:4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+.gray-glow{
+    border:4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
